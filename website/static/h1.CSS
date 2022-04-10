@@ -1,0 +1,113 @@
+body {
+            margin: 0;
+        }
+        
+        h1 {
+            font-family: arial;
+            font-style: normal;
+            font-size: 40px;
+        }
+        h2 {
+            font-family: arial;
+            font-style: normal;
+            font-size: 30px;
+            color: white;
+        }
+    * {box-sizing: border-box;}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 1px;
+  height: 150px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 40%;
+  align-items: flex-start;
+  text-align: left;
+ }
+
+.left1{
+  width: 30%;
+  text-align: left;
+
+}
+
+.right{
+  width: 30%;
+  text-align: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: yellow;
+  font-size: 25px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 10s ease;
+}
+
+.active {
+  background-color: #003152;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 8.5s;
+  animation-name: fade;
+  animation-duration: 8.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.5} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.5} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
