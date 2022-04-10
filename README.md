@@ -1,4 +1,4 @@
 # US_premium_charges_prediction
 ### Insurance companies deal with risk. To be successful they should manage that risk factor very well. Analyzing the data from the customers of the company and making an inspired decision is the best approach to managing risk. The insurance companies make revenue by establishing prices for insurable risks.
 ### Using exploratory data analysis, we found the important factor that has an impact on the insurance premium charges. Statistical learning models and machine learning models were fitted using python. The Gradient Boost Algorithm outperformed the models with an accuracy of 84.26% which is better than most of the other related work for this dataset.
-### Finally, a web application was developed using Flask to enter the data and predict the insurance charge
+### Finally, a web application was developed using Flask to enter the data and predict the insurance charge. The fonts and images which are used not included here.
